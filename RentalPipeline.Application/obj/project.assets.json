@@ -1,0 +1,97 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "RentalPipeline.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/RentalPipeline.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RentalPipeline.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RentalPipeline.Domain/1.0.0": {
+      "type": "project",
+      "path": "../RentalPipeline.Domain/RentalPipeline.Domain.csproj",
+      "msbuildProject": "../RentalPipeline.Domain/RentalPipeline.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "RentalPipeline.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\yanva\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\OneDrive\\Área de Trabalho\\Auxiliadora_Predial\\RentalPipeline.Application\\RentalPipeline.Application.csproj",
+      "projectName": "RentalPipeline.Application",
+      "projectPath": "D:\\OneDrive\\Área de Trabalho\\Auxiliadora_Predial\\RentalPipeline.Application\\RentalPipeline.Application.csproj",
+      "packagesPath": "C:\\Users\\yanva\\.nuget\\packages\\",
+      "outputPath": "D:\\OneDrive\\Área de Trabalho\\Auxiliadora_Predial\\RentalPipeline.Application\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\yanva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "D:\\OneDrive\\Área de Trabalho\\Auxiliadora_Predial\\RentalPipeline.Domain\\RentalPipeline.Domain.csproj": {
+              "projectPath": "D:\\OneDrive\\Área de Trabalho\\Auxiliadora_Predial\\RentalPipeline.Domain\\RentalPipeline.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

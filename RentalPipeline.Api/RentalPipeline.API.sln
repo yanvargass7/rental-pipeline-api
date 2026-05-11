@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35004.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RentalPipeline.API", "RentalPipeline.API.csproj", "{753040F6-0183-4148-8509-00D29E31BA44}"
+	ProjectSection(ProjectDependencies) = postProject
+		{77D920BA-2530-417B-A399-5F529809C757} = {77D920BA-2530-417B-A399-5F529809C757}
+		{D4CBF03F-F5B4-49C3-88D1-F8C56DB7158A} = {D4CBF03F-F5B4-49C3-88D1-F8C56DB7158A}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RentalPipeline.Domain", "..\RentalPipeline.Domain\RentalPipeline.Domain.csproj", "{11D214D9-797C-45D0-88FF-1B4A476147FB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RentalPipeline.Application", "..\RentalPipeline.Application\RentalPipeline.Application.csproj", "{D4CBF03F-F5B4-49C3-88D1-F8C56DB7158A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{11D214D9-797C-45D0-88FF-1B4A476147FB} = {11D214D9-797C-45D0-88FF-1B4A476147FB}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RentalPipeline.Infrastructure", "..\RentalPipeline.Infrastructure\RentalPipeline.Infrastructure.csproj", "{77D920BA-2530-417B-A399-5F529809C757}"
+	ProjectSection(ProjectDependencies) = postProject
+		{11D214D9-797C-45D0-88FF-1B4A476147FB} = {11D214D9-797C-45D0-88FF-1B4A476147FB}
+		{D4CBF03F-F5B4-49C3-88D1-F8C56DB7158A} = {D4CBF03F-F5B4-49C3-88D1-F8C56DB7158A}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RentalPipeline.Tests", "..\RentalPipeline.Tests\RentalPipeline.Tests.csproj", "{30935E59-E85C-4189-BA71-5EF970A907B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{3F7B2578-0A18-49F5-955F-E68AF1625574}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{753040F6-0183-4148-8509-00D29E31BA44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{753040F6-0183-4148-8509-00D29E31BA44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{753040F6-0183-4148-8509-00D29E31BA44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{753040F6-0183-4148-8509-00D29E31BA44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11D214D9-797C-45D0-88FF-1B4A476147FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11D214D9-797C-45D0-88FF-1B4A476147FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11D214D9-797C-45D0-88FF-1B4A476147FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11D214D9-797C-45D0-88FF-1B4A476147FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4CBF03F-F5B4-49C3-88D1-F8C56DB7158A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4CBF03F-F5B4-49C3-88D1-F8C56DB7158A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4CBF03F-F5B4-49C3-88D1-F8C56DB7158A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4CBF03F-F5B4-49C3-88D1-F8C56DB7158A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77D920BA-2530-417B-A399-5F529809C757}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77D920BA-2530-417B-A399-5F529809C757}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77D920BA-2530-417B-A399-5F529809C757}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77D920BA-2530-417B-A399-5F529809C757}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30935E59-E85C-4189-BA71-5EF970A907B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30935E59-E85C-4189-BA71-5EF970A907B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30935E59-E85C-4189-BA71-5EF970A907B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30935E59-E85C-4189-BA71-5EF970A907B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {648D4B82-6225-4351-AC39-14D73DDFD8E9}
+	EndGlobalSection
+EndGlobal

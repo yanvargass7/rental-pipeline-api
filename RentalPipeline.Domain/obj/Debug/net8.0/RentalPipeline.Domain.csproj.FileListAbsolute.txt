@@ -1,0 +1,11 @@
+D:\OneDrive\Área de Trabalho\Auxiliadora_Predial\RentalPipeline.Domain\bin\Debug\net8.0\RentalPipeline.Domain.deps.json
+D:\OneDrive\Área de Trabalho\Auxiliadora_Predial\RentalPipeline.Domain\bin\Debug\net8.0\RentalPipeline.Domain.dll
+D:\OneDrive\Área de Trabalho\Auxiliadora_Predial\RentalPipeline.Domain\bin\Debug\net8.0\RentalPipeline.Domain.pdb
+D:\OneDrive\Área de Trabalho\Auxiliadora_Predial\RentalPipeline.Domain\obj\Debug\net8.0\RentalPipeline.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\OneDrive\Área de Trabalho\Auxiliadora_Predial\RentalPipeline.Domain\obj\Debug\net8.0\RentalPipeline.Domain.AssemblyInfoInputs.cache
+D:\OneDrive\Área de Trabalho\Auxiliadora_Predial\RentalPipeline.Domain\obj\Debug\net8.0\RentalPipeline.Domain.AssemblyInfo.cs
+D:\OneDrive\Área de Trabalho\Auxiliadora_Predial\RentalPipeline.Domain\obj\Debug\net8.0\RentalPipeline.Domain.csproj.CoreCompileInputs.cache
+D:\OneDrive\Área de Trabalho\Auxiliadora_Predial\RentalPipeline.Domain\obj\Debug\net8.0\RentalPipeline.Domain.dll
+D:\OneDrive\Área de Trabalho\Auxiliadora_Predial\RentalPipeline.Domain\obj\Debug\net8.0\refint\RentalPipeline.Domain.dll
+D:\OneDrive\Área de Trabalho\Auxiliadora_Predial\RentalPipeline.Domain\obj\Debug\net8.0\RentalPipeline.Domain.pdb
+D:\OneDrive\Área de Trabalho\Auxiliadora_Predial\RentalPipeline.Domain\obj\Debug\net8.0\ref\RentalPipeline.Domain.dll

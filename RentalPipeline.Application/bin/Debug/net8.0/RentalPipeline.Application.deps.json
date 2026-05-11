@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "RentalPipeline.Application/1.0.0": {
+        "dependencies": {
+          "RentalPipeline.Domain": "1.0.0"
+        },
+        "runtime": {
+          "RentalPipeline.Application.dll": {}
+        }
+      },
+      "RentalPipeline.Domain/1.0.0": {
+        "runtime": {
+          "RentalPipeline.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RentalPipeline.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RentalPipeline.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
